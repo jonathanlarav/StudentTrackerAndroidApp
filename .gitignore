@@ -7,3 +7,5 @@
 
 # generated Java files #
 target
+.idea
+.build
