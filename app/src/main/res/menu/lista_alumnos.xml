@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pe.joedayz.registro.ListaAlumnos" >
+
+    <item
+        android:id="@+id/nuevo"
+        android:showAsAction="always"
+        android:title="Nuevo"/>
+    <item
+        android:id="@+id/mapa"
+        android:showAsAction="always"
+        android:title="Mapa"/>
+    <item android:title="Opciones"
+        android:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/enviar_alumnos"
+                android:showAsAction="always"
+                android:title="sincronizar"/>
+            <item
+                android:id="@+id/recibir_pruebas"
+                android:showAsAction="always"
+                android:title="Bajar pruebas"/>
+            <item
+                android:id="@+id/preferencias"
+                android:showAsAction="always"
+                android:title="Preferencias"/>
+        </menu>
+    </item>
+
+</menu>

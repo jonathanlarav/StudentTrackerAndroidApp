@@ -1,0 +1,9 @@
+# Idea files #
+.idea/
+*.iml
+*.ipr
+*.iws
+*.ids
+
+# generated Java files #
+target
